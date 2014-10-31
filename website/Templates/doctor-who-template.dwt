@@ -12,10 +12,11 @@
 <!-- TemplateParam name="The Villians" type="boolean" value="false" -->
 <!-- TemplateParam name="Show History" type="boolean" value="false" -->
 <!-- TemplateParam name="The Companions" type="boolean" value="false" -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<table height= border="0">
+<table height= border="0" class="general-width">
   <tr>
     <td>[Banner]</td>
   </tr>
@@ -23,9 +24,9 @@
     <td><a href="../index.html">Home</a> |<a href="../The Doctors/"> The Doctors</a> |<a href="../The Companions/"> The Companions</a> | <a href="../The Villians/">The Villians</a> |<a href="../Show History/"> Show History</a></td>
   </tr>
 </table>
-<table width="0" border="0">
+<table width="0" border="0" class="general-width">
   <tr>
-    <td><!-- TemplateBeginIf cond="_document['The Doctors Sub Menu']" -->
+    <td class="secondary-nav"><!-- TemplateBeginIf cond="_document['The Doctors Sub Menu']" -->
       <ul>
         <li><a href="../The Doctors/The Characters/1.1. The First Doctor.html">The First Doctor</a></li>
         <li><a href="../The Doctors/The Characters/1.2. The Second Doctor.html">The Second Doctor</a></li>
@@ -83,7 +84,7 @@
     <td>[<!-- TemplateBeginEditable name="Page Content" -->Page Content<!-- TemplateEndEditable -->]</td>
   </tr>
 </table>
-<table width="0" border="0">
+<table width="0" border="0" class="general-width">
   <tr>
     <td><p>Brendan Davey</p>
     <p>Monica DuCong'e</p>
