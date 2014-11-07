@@ -10,6 +10,8 @@ p {
 td {
 	text-align: left;
 	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
 }
 .general-width {
 	width: 1000px;
@@ -20,17 +22,13 @@ td {
 .secondary-nav li {
 	list-style-type: none;
 }
-p {
-	width: 25%;
-}
+
 .reference-links {
 	width: 25%;
 }
-td {
-	width: 50%;
-}
 table {
 	background-color: #fff;
+	border-collapse:collapse;
 }
 .class-links {
 	width: 25%;
