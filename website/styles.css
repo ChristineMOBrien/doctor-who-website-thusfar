@@ -23,6 +23,15 @@ td {
 p {
 	width: 25%;
 }
+.reference-links {
+	width: 25%;
+}
 td {
 	width: 50%;
+}
+table {
+	background-color: #fff;
+}
+.class-links {
+	width: 25%;
 }
